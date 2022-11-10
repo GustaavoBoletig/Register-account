@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: ghostwhite;
+    font-family: sans-serif;
+    background-image: linear-gradient(to bottom, rgba(62,192,181,0.5), white);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#register-form {
+    background: white;
+    border-radius: 20px;
+    width: 29%;
+    margin: 100px auto;
+    padding: 50px;
+    height: 450px;
+}
+
+#register-form .fieldset header h1 {
+    text-align: center;
+    color: #3ec0b5;
+    font-size: 40px;
+    transition: all 0.4s linear;
+}
+
+#register-form .fieldset ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 17px 0px 17px 0px;
+}
+
+#register-form .fieldset ul li a img {
+    background-color: rgb(155, 155, 155);
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 30px;
+    height: 35px;
+    transition: all 0.4s linear;
+}
+
+#register-form .fieldset p {
+    color: rgb(167, 167, 167);
+    text-align: center;
+    margin: 0px 0px 15px 0px;
+}
+
+#register-form .fieldset .container-input {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#register-form .fieldset .container-input input{
+    background-color: rgb(233, 233, 233);
+    border: none;
+    border-radius: 4px;
+    padding: 19px;
+    margin: 17px 0px 0px 0px;
+    font-weight: bold;
+    transition: all 0.4s linear;
+}
+
+#register-form .fieldset .container-submit {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#register-form .fieldset #input-submit {
+    background-color: #3ec0b5;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    width: 200px;
+    padding: 13px;
+    margin: 45px 0px 0px 0px;
+    transition: all 0.2s linear;
+}
+
+#register-form .fieldset #input-submit:hover {
+    width: 220px;
+    background-color: #3db4aa;
+    color: whitesmoke;
+}
+
+#register-form .fieldset header h1:hover {
+    color: #3e9b93;
+}
+
+#register-form .fieldset ul li a img:hover {
+    background-color: #3e9b93;
+}
+
+#register-form .fieldset .container-input input:hover {
+    background-color: rgb(211, 211, 211);
+}
+
